@@ -37,6 +37,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'bootstrap', '~> 4.1.3'
 gem 'devise'
+gem 'activeadmin', '~> 1.4', '>= 1.4.3'
 
 
 group :development, :test do
