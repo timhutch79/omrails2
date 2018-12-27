@@ -11,10 +11,16 @@ module Omrails
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
+end
+end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
-  config.app_generator.scaffold_controller = :scaffold_controller
+Rails.root.join('vendor', 'assets', 'bower_components').to_s.tap do |bower_path|
+	config.sass.load_paths << bower_path
+  config.assets.paths << bower_path
+
   end
 end
