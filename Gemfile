@@ -15,7 +15,6 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 5.0.5'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.1.3'
 gem 'devise'
 gem 'activeadmin', '~> 1.4', '>= 1.4.3'
